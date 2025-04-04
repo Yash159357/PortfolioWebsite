@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <script src="scripts/script.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Yash</a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="hero">
+                <img src="assets/profile_pic.jpg" alt="Yash" class="profile-pic">
+                <h1>Yash</h1>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yash-kumar101/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Yash159357" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:yashmalihan3@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-me-content">
+                <div class="about-me-text full-width">
+                    <p>Hi! I'm Yash, a 3rd-year Computer Science student at USICT with a passion for building engaging
+                        mobile applications using Flutter. I'm a team member of the Google Developers Group (GDG) at
+                        USICT, where I collaborate and learn alongside other tech enthusiasts.</p>
+
+                    <p>My skills go beyond Flutter, as I'm also proficient in C/C++ and constantly seeking new ways to
+                        improve my problem-solving skills. I'm eager to connect with industry professionals and explore
+                        challenging opportunities that will allow me to contribute to impactful projects and grow as a
+                        developer.</p>
+
+                    <div class="about-me-highlight">
+                        <i class="fas fa-lightbulb highlight-icon"></i>
+                        <span>I believe in creating intuitive, user-friendly applications that solve real-world problems
+                            and enhance users' daily lives.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Left Column: Contact + Resume -->
+                <div class="about-card">
+                    <h2 class="section-title">Contact & Resume</h2>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> +91 8882462047</li>
+                        <li><i class="fas fa-envelope"></i> yashmalihan3@gmail.com</li>
+                        <li><i class="fab fa-github"></i> https://github.com/Yash159357</li>
+                        <li><i class="fab fa-linkedin"></i> linkedin.com/in/yash-kumar101</li>
+                    </ul>
+                    <a href="assets/resume.pdf" download class="resume-btn">
+                        Download Resume <i class="fas fa-download"></i>
+                    </a>
+                </div>
+
+                <!-- Right Column: Skills -->
+                <div class="about-card">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">Flutter</div>
+                        <div class="skill-item">Dart</div>
+                        <div class="skill-item">C/C++</div>
+                        <div class="skill-item">Firebase</div>
+                        <div class="skill-item">REST API</div>
+                        <div class="skill-item">BLoC</div>
+                        <div class="skill-item">GetX</div>
+                        <div class="skill-item">Git</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Brevity -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/Brevity.jpg" alt="Brevity Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Brevity: AI-Driven News Curation</h3>
+                        <p>A Flutter-powered news platform engineered to transform how professionals consume
+                            information. Leverages cutting-edge AI to deliver precision, speed, and actionable insights.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>BLoC</span>
+                            <span>Firebase</span>
+                            <span>Gemini API</span>
+                        </div>
+                        <a href="https://github.com/Yash159357/BREVITY" class="project-link" target="_blank">GitHub Repo
+                            <i class="fab fa-github"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 2: QuickEats -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/QuickEats.png" alt="QuickEats Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>QuickEats: Food Delivery App</h3>
+                        <p>A food delivery app built with Flutter offering a seamless user experience. Browse
+                            restaurants, view detailed menus, and place orders with ease.</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>GetX</span>
+                            <span>Firebase Auth</span>
+                            <span>Firestore</span>
+                        </div>
+                        <a href="https://github.com/Yash159357/FoodDeliveryApp" class="project-link"
+                            target="_blank">GitHub Repo <i class="fab fa-github"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 3: CloneAI -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/CloneAI.png" alt="CloneAI Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>CloneAI</h3>
+                        <p>An AI-powered app inspired by tools like ChatGPT and Gemini. Access multiple AI models in one
+                            place with chatbot functionalities.</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>REST API</span>
+                            <span>ChatGPT</span>
+                            <span>Gemini</span>
+                        </div>
+                        <a href="https://github.com/Yash159357/CloneAI" class="project-link" target="_blank">GitHub Repo
+                            <i class="fab fa-github"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Professional Tagline -->
+                <p class="footer-tagline">
+                    Open to new opportunities and collaborations.
+                </p>
+
+                <!-- Primary CTA -->
+                <a href="mailto:yashmalihan3@gmail.com" class="footer-email">
+                    Let's connect → <span>yashmalihan3@gmail.com</span>
+                </a>
+
+                <!-- Minimal Social Links -->
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/yash-kumar101/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Yash159357" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="assets/resume.pdf" download aria-label="Download Resume">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
