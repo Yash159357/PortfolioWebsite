@@ -48,6 +48,23 @@
     animation-delay: 0.8s;
 }
 
+/* Fade-in animation for Work Experience Section */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.work-experience {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
 /* Project Card Entry Animation */
 /* animations.css */
 /* Smoother Card Entrance */
@@ -56,6 +73,7 @@
         opacity: 0;
         transform: translateY(30px) scale(0.95);
     }
+
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
