@@ -370,6 +370,7 @@ body {
     box-shadow: var(--box-shadow);
     padding: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .experience-card:hover {
