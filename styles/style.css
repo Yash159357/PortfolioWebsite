@@ -358,6 +358,77 @@ body {
     transition: background-color 0.3s ease;
 }
 
+/* Work Experience Section */
+.work-experience {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.experience-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.experience-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.experience-header h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.company-name {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.work-duration {
+    font-size: 1rem;
+    color: var(--project-text);
+    font-style: italic;
+}
+
+.experience-content p {
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.experience-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-list li {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.experience-list li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
 /* ===== Fixed Navigation ===== */
 .navbar {
     position: fixed;
